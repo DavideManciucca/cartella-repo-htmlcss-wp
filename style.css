@@ -29,7 +29,7 @@ nav ul{
 
 nav ul li{
   display: inline-block;
-  padding-right: 2px;
+  padding-right: 20px;
 }
 nav ul li a{
   color: gray;
@@ -57,6 +57,7 @@ a:hover{
   width: 80%;
 }
 .title{
+  padding-top: 25px;
   font-size: 30px;
 }
 
@@ -66,7 +67,41 @@ a:hover{
 }
 .column{
   float: left;
+  padding-top: 30px;
 }
-.img{
-  border-radius: 10px;
+
+
+
+.sx-top{
+  height: 150px;
+  background-image: url("../cartella-repo-htmlcss-wp/img/img-4.jpg");
+  background-size: cover;
+  border-radius: 15px;
+  background-position: center;
+}
+.center-top{
+  height: 150px;
+  background-image: url(img/img-5.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.dx-top{
+  height: 150px;
+  background-image: url(img/img-6.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.center{
+  width: 60%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.dx{
+  width: 20%;
+}
+.sx{
+  width: 20%;
+
 }
