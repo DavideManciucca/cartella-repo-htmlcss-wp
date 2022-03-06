@@ -47,7 +47,7 @@ a:hover{
   overflow: hidden;
   background-size: cover;
   background-position: center;
-  color: gray;
+  color: white;
 }
 .container .text{
   padding-top: 200px;
@@ -55,6 +55,7 @@ a:hover{
 }
 .container p, h1{
   width: 80%;
+  overflow: hidden;
 }
 .title{
   padding-top: 25px;
@@ -103,5 +104,13 @@ a:hover{
 }
 .sx{
   width: 20%;
+}
+.overlay{
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 500px;
+}
 
+footer{
+  text-align: center;
+  padding-top: 20px;
 }
